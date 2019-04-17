@@ -58,3 +58,4 @@ public:
 };
 ostream& operator<<(ostream &os, const vector_&c);
 istream& operator>>(istream&is, vector_&c);
+bool operator==(const vector_&a, const vector_&b);
