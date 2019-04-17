@@ -173,3 +173,10 @@ istream & operator>>(istream & is, vector_ & c)
 	c.(a, b);
 	return is;
 }
+bool operator==(const vector_&a, const vector_b){
+	if(a.getSize()!=b.getSize()){return false}
+		for(size_t i = 0; i <a.getSize(); i++)
+		{
+		   if(a.arr[i]!=b.arr[i]){return false;}
+		}
+		return true;
