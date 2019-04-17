@@ -180,3 +180,4 @@ bool operator==(const vector_&a, const vector_b){
 		   if(a.arr[i]!=b.arr[i]){return false;}
 		}
 		return true;
+}
